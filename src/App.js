@@ -60,8 +60,7 @@ import { useState } from 'react';
               setSearch={setSearch}
               />
       <Content 
-        /* items={items.filter(item => ((item.item).toLowerCase()).includes(search.toLowerCase()))} */
-        items={items}
+        items={items.filter(item => ((item.item).toLowerCase()).includes(search.toLowerCase()))}
         handleCheck={handleCheck}
         handleDelete={handleDelete}
         />
