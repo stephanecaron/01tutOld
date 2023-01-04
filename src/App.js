@@ -9,7 +9,7 @@ import { useState } from 'react';
 
   function App() {
 
-    let shoppingList = {}
+    let shoppingList = []
     if (localStorage.getItem('shoppinglist')) {
       shoppingList = JSON.parse(localStorage.getItem('shoppinglist'))
     }
