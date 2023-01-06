@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemList from './ItemList'
+import itemList from './itemList'
 
 const Content = ({items, handleCheck, handleDelete}) => {
  
@@ -8,7 +8,7 @@ const Content = ({items, handleCheck, handleDelete}) => {
   return (
  <main>
     {items.length ? ( 
-   <ItemList 
+   <itemList 
     items={items}
     handleCheck={handleCheck}
     handleDelete={handleDelete}/>
